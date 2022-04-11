@@ -60,7 +60,7 @@ html{
   flex-direction: row;
 }
 
-.prev-ctrl,.next-ctrl{
+.v-ctrl,.next-ctrl{
   height: auto;
   width: auto;
   text-align: center;
@@ -511,15 +511,6 @@ z-index: 2;
   display: none;
 }
 
-#preloader{
-  width:100%;
-  height:100vh;
-  background:#050505;
-  overflow:hidden;
-  z-index: 1000;
-  position:fixed;
-  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
-}
 
 .p {
   position: absolute;
